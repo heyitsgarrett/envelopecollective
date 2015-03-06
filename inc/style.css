@@ -1,0 +1,713 @@
+/* ART GONE CSS! [ The Envelope Collective] */
+
+body {
+	background-image: url("../images/layout/pageBG.gif");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-position: center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+	
+h1 {
+	padding: 0 0 0 5px;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: #810604;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+* html h1 {font-weight: bold;}
+
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666666;
+}
+
+h3 {
+	padding: 0 0 0 5px;
+	margin: 0;
+	color: #333333;
+	font-size: 11px;
+}
+
+h4 {
+	padding: 0;
+	margin: 0 0 5px 0;
+	border: none;
+}
+
+.padding {
+    padding: 40px;
+}
+
+	#index {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#index h1 {
+		font-family: Georgia, Times, serif;
+		font-size: 24px;
+		font-weight: normal;
+		color: #000000;
+		margin: 10px 0 0 10px;
+		padding: 0;
+	}
+	
+	#index h2 {
+		font-family: Georgia, Times, serif;
+		text-align: left;
+		font-size: 14px;
+		font-weight: bold;
+		color: #FF9900;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#index .number {
+		width: 50px;
+		height: 13px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 20px;
+		text-decoration: none;
+		color: #CCCCCC;
+	}
+	
+	#index .comment {
+		float: right;
+		font-size: 10px;
+		height: 15px;
+		width: 370px;
+		padding-bottom: 1px;
+		border-bottom: 1px dotted #CCCCCC;
+	}
+	
+	 #index .comment a, #index .comment a:visited {
+	 	text-decoration: none;
+		color: #666666;
+	 }
+	 
+	 #index a:hover {
+	 	color: #CC0000;
+	 }
+
+a, a:visited {
+	text-decoration: none;
+	color: #FF4F11;
+}
+
+a:hover {
+	color: #C42828;
+}
+
+.text {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000;
+	line-height: 16px;
+}
+
+	.text h1 {
+		font-size: 20px;
+		font-weight: bold;
+		padding: 0;
+		margin: 0;
+		border: none;
+	}
+	
+	.text h2 {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		border: none;
+		color: #333333;
+	}
+	
+	.text h3 {
+		font-size: 15px;
+		font-weight: bold;
+		padding: 0 0 2px 0;
+		margin: 0 0 2px 0;
+		color: #CC3333;
+		border-bottom: 1px dashed #D2D2D2;
+	}
+	
+.alttext {
+	font-size: 12px;
+	line-height: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+	.alttext a {
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+.small {
+	font-size: 11px;
+	color: #959595;
+	font-style: italic;
+}
+
+.border {
+	margin: 3px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+}
+
+input {
+	background-image: url("http://envelopecollective.com/inc/images/layout/diagBG_gray.gif");
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	padding: 2px;
+}
+	
+.submit {
+	background: none;
+	border: none;
+	height:15px;
+}
+
+/*/////////////////////////////////////*/
+/* NAVIGATION CSS */
+	
+#navigation ul {
+	list-style: none;
+	margin: 0 0 0 125px;
+	padding: 0;
+	}
+	
+#navigation li {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 30px;
+	}
+	
+#navigation a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	letter-spacing: .1em;
+	font-weight: bolder;
+	color: #ffffff;
+	font-stretch: expanded;
+	line-height: 16px;
+	text-decoration: none;
+	}
+	
+#navigation a:hover {
+	color: #FF9900;
+	}
+	
+#navigation #currentpage a {
+	font-weight: bold;
+	}
+
+#searchTop {
+	font-size: .9em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+	#searchTop input {
+		background-color: #670503;
+		border: 1px solid #4A0302;
+		font-size: .9em;
+		font-weight: normal;
+		color: #ffffff;
+		padding: 1px;
+		height: 11px;
+	}
+	
+	#searchTop .submit {
+		background: none;
+		border: none;
+		height: 11px;
+		line-height: 11px;
+		padding: 0;
+	}
+
+/*/////////////////////////////////////*/
+/* CORRESPONDANTS CSS */
+
+.Garrett {
+	color: #0066FF;
+	}
+.Adam {
+	color: #FF0099;
+	}
+.Chris {
+	color: #FF7807;
+	}
+.Ophelia {
+	color: #009933;
+	}
+	
+	/* CORRESPONDANT VACATION */
+	.vacation {
+		text-decoration: line-through;
+		filter:alpha(opacity=60);-moz-opacity:.6;opacity:.6;		
+	}
+	
+	.vacationBold {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		color: #990000;
+	}
+	
+	/* ABOUT PAGE */
+	.about {
+		font-size: 12px;
+		line-height: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+		.about h1 {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+			color: #999999;
+			background: url("../images/layout/diagBG_graylt.gif");
+			border-top: 1px dotted #CCCCCC;
+		}
+		
+		.about h2 {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+			color: #999999;
+			border-bottom: 1px dotted #CCCCCC;
+		}
+		
+	.aboutQuestion {
+		font-size: 13px;
+		background: url("../images/layout/diagBG_graylt.gif");
+		font-weight: bold;
+		margin: 8px 0;
+	}
+	
+	.aboutAnswer {
+		font-size: 12px;
+		line-height: 16px;
+		margin-left: 15px;
+	}
+		
+	.about a, .about a:visited {
+		font-size: 12px;
+		font-weight: bold;
+		font-family: Georgia, "Times New Roman", Times, serif;
+	}
+	
+	.about a:hover {
+		color: #000000;
+	}
+	
+	.about img {
+		border: 1px solid #666666;
+	}
+	
+/*/////////////////////////////////////*/
+/* FOOTER CSS */
+
+.footer {
+	border-top: 1px dashed #CCCCCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #999999;
+}
+
+.footer a, .footer a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #999999;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #FF9900;
+}
+
+/*/////////////////////////////////////*/
+/* GALLERY INDEX CSS */
+
+.galleryIndexNav {
+	padding: 8px 0 2px 6px;
+	border-bottom: 1px dashed #CCCCCC;
+	font-weight: bold;
+	color: #333333;
+}
+
+	.galleryIndexNav a, .galleryIndexNav a:visited, .galleryIndexNav a:active {
+		text-decoration: none;
+		color: #FF3300;
+	}
+	
+	.galleryIndexNav a:hover {
+		color: #CC0000;
+	}
+
+#galleryIndex .number {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #fff;
+	background-color: #FF3300;
+	border: 1px solid #990000;
+	font-size: 11px;
+	line-height: 12px;
+	text-align: center;
+}
+
+#galleryIndex .info {
+	background-image: url("../images/layout/diagBG_graylt.gif");
+	border: 1px solid #CCCCCC;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 12px;
+}
+	#galleryIndex .info a, #galleryIndex .info a:visited {
+		text-decoration: none;
+		color: #000000;
+		display: block;
+	}
+	
+	#galleryIndex .info a:hover {
+		color: #990000;
+	}
+	
+#galleryIndex .blank {
+	font-size: 11px;
+	line-height: 12px;
+}
+
+#galleryIndex td {
+	border-bottom: 2px solid white;
+}
+
+.barON {
+	color: #CC0000;
+	background-image: url("../images/layout/diagBG_yellorange.gif");
+}
+
+.barOFF {
+}
+
+.barOVER {
+	background-image: url("../images/layout/diagBG_gray.gif");;
+}
+
+.barOUT {
+	background-color: #FFFFFF;
+}
+
+#galleryIndex h1 {
+	padding-top: 3px;
+	padding-left: 0;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #999999;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+#galleryIndex h2 {
+	padding: 0 0 2px 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	color: #FF9933;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+#galleryIndex img {
+	border: 1px solid #999999;
+}
+
+	#galleryIndex #result {
+		height: 40px;
+		width: 300px;
+		float: left;
+		border-bottom: 1px dotted #CCCCCC;
+		padding: 5px;
+		font-size: 11px;
+	}
+	
+	#galleryIndex #result .num{
+		font-weight: bold;
+		font-size: 15px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: #CC0000;
+	}
+	
+	#galleryIndex #result .name{
+		font-weight: bold;
+		color: #FF3300;
+	}
+	
+	#galleryIndex #result .location{
+		color: #333333;
+	}
+
+#galleryIndexLeft {
+	font-weight: bold;
+	background-image: url("../images/layout/diagBG_gray.gif");
+	padding: 5px;
+}
+
+#galleryIndexLeft select {
+	width: 90px;
+	text-align: center;
+	font-size: 11px; 
+	font-weight: bold;
+	color: #FF0000;
+	border: 1px solid #CCCCCC;
+	background-color:#ffffff; 
+}
+
+#galleryIndexLeft .head {
+	display: block;
+	padding: 4px;
+	margin: 0 0 5px 0;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+	#galleryIndexLeft .headsml {
+		padding: 0;
+		margin: 2px 0 0 10px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		line-height: 20px;
+		color: #666666;
+	}
+	
+	#galleryIndexLeft .headsml select {
+		width: 90px;
+		height: 15px;
+		margin-bottom: 4px;
+		font-size: 11px;
+		line-height: 13px;
+		font-weight: normal;
+		color: #666666;
+		border: 1px solid #CCCCCC;
+		background-color:#ffffff; 
+	}
+
+#galleryIndexLeft #text {
+	padding: 0;
+	margin: 2px 0 0 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	color: #666666;
+}
+	
+	#text td {
+		border-bottom: 1px dashed #CCCCCC;
+	}
+
+	#galleryIndexLeft .stat {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 15px;
+		text-align: right;
+	}
+
+
+
+/*/////////////////////////////////////*/
+/* ENVELOPE CSS */
+
+.envSubmission {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 28px;
+}
+
+.envelopeCat {
+	color: #FFF;
+	background-image: url("../images/layout/categoryBG.gif");
+	font-size: 10px;
+	padding: 0 0 0 4px;
+	margin: 0;
+	line-height: 20px;
+}
+
+.envelopeID {
+	font-size: 12px;
+	color: #000;
+	background-image: url("../images/layout/diagBG_gray.gif");
+}
+
+	.envelopeID a {
+		color: #CC0000;
+	}
+	
+	.envelopeID a:hover, .envelopeID a:visited {
+		color: #000000;
+	}
+
+.envelopeComm {
+	font-size: 12px;
+	color: #000;
+	padding: 0 0 1px 0;
+	border: 1px solid #cbcbcb;
+	background-image: url("../images/layout/diagBG_graylt.gif");
+	padding: 2px 2px 2px 5px;
+	width: 350px;
+}
+
+.envelopeBy {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+	text-align: right;
+}
+
+.envelopeBy a, .envelopeBy a:visited {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.envelopeBy a:hover {
+	text-decoration: underline;
+}
+
+#envelopeNav {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-align: right;
+}
+
+#envelopeNav select {
+	width: 40px;
+	text-align: center;
+	font-size: 11px; 
+	color: #ffae00; 
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #CCCCCC;
+	background-color:#ffffff; 
+}
+
+#envelopeVisitor {
+	font-size: 11px;
+	color: #999999;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+
+#envelopeVisitor h1 {
+	margin: 0;
+	padding: 2px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-size: 13px;
+	color: #333333;
+}
+
+#envVisitorComm {
+/* ALSO APPLIES TO INDEX MAILING LIST FORM */
+	font-size: 11px;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+#envVisitorComm input, #envVisitorComm textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	background-color: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+}
+
+#listComments {
+	font-size: 12px;
+	line-height: 13px;
+	color: #666666;
+}
+
+#listComments h1 {
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: right;
+	font-size: 12px;
+	line-height: 13px;
+	color: #999999;
+}
+
+#listComments div {
+	font-size: 11px;
+	border: 1px dotted #CCCCCC;
+	padding: 3px;
+	line-height: 14px;
+}
+
+#listComments .name{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	color: #FF6600;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#listComments .date{
+	padding: 0;
+	margin: 0;
+	color: #FF9900;
+	font-style: italic;
+}
+
+/*/////////////////////////////////////*/
+/* SEARCH CSS */
+
+#search {
+	font-size: 11px;
+}
+
+#search .category td {
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+}
+
+#search .id {
+	font-weight: bold; 
+	color:#ffffff; 
+	background-color:#FF340E;
+}
+
+#search .id a, #search .id a:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+}
